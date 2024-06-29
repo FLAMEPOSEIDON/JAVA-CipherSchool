@@ -9,10 +9,10 @@ public class  primitive
         System.out.println("X is: "+x);
         System.out.println("Y is: "+y);
 
-        byte b =10; //byte = -127 to 127
-        System.out.println("B is: "+b);
+        byte b =10; 
+        System.out.println("B is: "+b);//byte = -127 to 127
 
-        int i = b;
+        int i = b;//implicit type casting
         System.out.println("I is: "+i);  
         
         //byte b = (byte)129 this is explicit type casting
